@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Eclipse Java
+Comment=Java IDE
+Exec=/home/$USER/Software/eclipse-java/eclipse
+Type=Application
+Icon=/home/$USER/Software/eclipse-java/icon.xpm
+Categories=Development
+Name[en_US]=Eclipse Java

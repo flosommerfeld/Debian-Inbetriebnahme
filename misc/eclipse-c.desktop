@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Eclipse C
+Comment=C/C++ IDE
+Exec=/home/$USER/Software/eclipse-cpp/eclipse
+Type=Application
+Icon=/home/$USER/Software/eclipse-cpp/icon-c.png
+Categories=Development
+Name[en_US]=Eclipse C
