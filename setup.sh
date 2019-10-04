@@ -48,7 +48,7 @@ mkdir /home/$USER/Files
 
 echo "#5.1: Installation von nützlicher Software (über apt)"
 apt-get update && apt-get upgrade
-apt-get install -y net-tools sudo command-not-found dconf-editor redshift redshift-gtk snapd flatpak gdebi filezilla htop gnome-software-plugin-flatpak curl libcanberra-gtk-module libcanberra-gtk3-module openjdk-11-source openjdk-11-jdk openjdk-11-doc openjfx openjfx-source git python-nautilus python-configobj python-gtk2 python-glade2 python-svn python-dbus python-dulwich subversion meld
+apt-get install -y net-tools sudo command-not-found dconf-editor redshift redshift-gtk snapd flatpak gdebi filezilla htop gnome-software-plugin-flatpak curl libcanberra-gtk-module libcanberra-gtk3-module openjdk-11-source openjdk-11-jdk openjdk-11-doc openjfx openjfx-source git python-nautilus python-configobj python-gtk2 python-glade2 python-svn python-dbus python-dulwich subversion meld rabbitvcs-core rabbitvcs-cli rabbitvcs-gedit rabbitvcs-nautilus
 apt-get update
 
 echo "#5.2: Installation von nützlicher Software (über flatpak)"
@@ -72,22 +72,17 @@ cp misc/icon-c.png /home/$USER/Software/eclipse-cpp
 cp misc/eclipse-cpp.desktop /usr/share/applications
 cp misc/eclipse-java.desktop /usr/share/applications
 
-echo "#5.5: Installation von RabbitVCS"
-unzip -v pkgs/$rabbitVcs.zip
-python pkgs/$rabbitVcs/setup.py install --install-layout=deb
-cp clients/nautilus/RabbitVCS.py /usr/share/nautilus-python/extensions
-
-echo "#5.6: Installation von StarUML"
+echo "#5.5: Installation von StarUML"
 cp pkgs/$starUml /home/$USER/Software/
 
-echo "#5.7: Installation von Balena Etcher"
+echo "#5.6: Installation von Balena Etcher"
 cp pkgs/$balenaEtcher /home/$USER/Software/
 
-echo "#5.8: Installation von MegaSync"
+echo "#5.7: Installation von MegaSync"
 sudo dpkg -i pkgs/$megaSync.deb
 sudo dpkg -i pkgs/$megaSyncNautilusExt.deb
 
-echo "#5.9: Installation von Pencil"
+echo "#5.8: Installation von Pencil"
 sudo dpkg -i pkgs/$pencil.deb
 
 echo "#6: Folgende Sachen konnte ich nicht automatisieren:"
