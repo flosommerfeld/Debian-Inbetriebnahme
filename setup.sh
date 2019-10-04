@@ -17,6 +17,7 @@ megaSyncNautilusExt = "nautilus-megasync-Debian_10.0_amd64"
 rabbitVcs = "rabbitvcs-0.17.1"
 pencil = "Pencil_3.0.4_amd64"
 starUml = "StarUML-3.1.0-x86_64"
+virtualbox = "virtualbox-6.0_6.0.12-amd64"
 
 
 echo "###########################################"
@@ -84,6 +85,9 @@ sudo dpkg -i pkgs/$megaSyncNautilusExt.deb
 
 echo "#5.8: Installation von Pencil"
 sudo dpkg -i pkgs/$pencil.deb
+
+echo "#5.9: Installation von Virtualbox"
+sudo dpkg -i pkgs/$virtualbox.deb
 
 echo "#6: Folgende Sachen konnte ich nicht automatisieren:"
 echo "Keyboard-Shortcuts für das Terminal, ... "

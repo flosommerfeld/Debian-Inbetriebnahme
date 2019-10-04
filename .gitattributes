@@ -6,3 +6,4 @@ pkgs/Pencil_3.0.4_amd64.deb filter=lfs diff=lfs merge=lfs -text
 pkgs/rabbitvcs-0.17.1.zip filter=lfs diff=lfs merge=lfs -text
 pkgs/StarUML-3.1.0-x86_64.AppImage filter=lfs diff=lfs merge=lfs -text
 pkgs/balenaEtcher-1.5.57-x64.AppImage filter=lfs diff=lfs merge=lfs -text
+pkgs/virtualbox-6.0_6.0.12-amd64.deb filter=lfs diff=lfs merge=lfs -text
