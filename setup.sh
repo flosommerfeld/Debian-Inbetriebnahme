@@ -49,7 +49,7 @@ mkdir /home/$USER/Files
 
 echo "#5.1: Installation von nützlicher Software (über apt)"
 apt-get update && apt-get upgrade
-apt-get install -y net-tools sudo command-not-found dconf-editor redshift redshift-gtk snapd flatpak gdebi filezilla htop gnome-software-plugin-flatpak curl libcanberra-gtk-module libcanberra-gtk3-module openjdk-11-source openjdk-11-jdk openjdk-11-doc openjfx openjfx-source git python-nautilus python-configobj python-gtk2 python-glade2 python-svn python-dbus python-dulwich subversion meld rabbitvcs-core rabbitvcs-cli rabbitvcs-gedit rabbitvcs-nautilus libdouble-conversion1 libpcre2-16-0 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5opengl5 libqt5printsupport5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libsdl1.2debian libxcb-xinerama0 qt5-gtk-platformtheme qttranslations5-l10n libc-ares2 libcrypto++6 libmediainfo0v5 libtinyxml2-6a libzen0v5
+apt-get install -y net-tools sudo command-not-found dconf-editor redshift redshift-gtk snapd flatpak gdebi filezilla htop gnome-software-plugin-flatpak curl libcanberra-gtk-module libcanberra-gtk3-module openjdk-11-source openjdk-11-jdk openjdk-11-doc openjfx openjfx-source git python-nautilus python-configobj python-gtk2 python-glade2 python-svn python-dbus python-dulwich subversion meld rabbitvcs-core rabbitvcs-cli rabbitvcs-gedit rabbitvcs-nautilus libdouble-conversion1 libpcre2-16-0 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5opengl5 libqt5printsupport5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libsdl1.2debian libxcb-xinerama0 qt5-gtk-platformtheme qttranslations5-l10n libc-ares2 libcrypto++6 libmediainfo0v5 libtinyxml2-6a libzen0v5 gparted
 
 apt-get update
 
